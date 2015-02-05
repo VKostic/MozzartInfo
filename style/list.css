@@ -1,0 +1,50 @@
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: left;
+    vertical-align: bottom;
+    padding: 3px 7px 2px 7px;
+}
+
+th {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    background-color: cornflowerblue;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background: lightsteelblue;
+}
+
+.textmiddle {
+    vertical-align: middle;
+}
+
+body {
+    font: 100% Verdana;
+    margin: 20px;
+    line-height: 26px;
+}
+
+a:link {
+    font: 85% Verdana;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+}
